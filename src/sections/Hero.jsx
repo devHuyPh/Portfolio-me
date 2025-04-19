@@ -1,6 +1,8 @@
 import React from "react";
+import { words } from "../constants";
+import Button from "../components/Button";
 
-const Hero = () => {    
+const Hero = () => {
   return (
     <>
       <section id="hero" className="relative overflow-hidden">
@@ -9,6 +11,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-layout">
+          {/**hero content*/}
           <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
             <div className="flex flex-col gap-7">
               <div className="hero-text">
@@ -32,14 +35,31 @@ const Hero = () => {
                     </span>
                   </span>
                 </h1>
-                <h1>the Future</h1>
+
+                <h1>into Real Project</h1>
+
+                <h1>that Deliver</h1>
+
+                <p className="text-white-50 md:text-xl relative z-10 pointer-events-enone">
+                  Hi, I'm Huy Phung, a developer based in VietNam with a
+                  apassion for code
+                </p>
+
+                <Button
+                  className="md:w-80 md:h-16 w-60 h-12"
+                  id="button"
+                  text="See my work"
+                />
               </div>
             </div>
           </header>
+
+				  {/**hero 3dmodel */}
+				  
         </div>
       </section>
     </>
   );
 };
 
-export default App;
+export default Hero;
