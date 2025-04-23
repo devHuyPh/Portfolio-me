@@ -251,18 +251,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/_am.hy/",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    url: "https://www.facebook.com/am.hyu",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    url: "https://twitter.com/am_huy",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/huy-ph%C3%B9ng-26b8b3337/",
   },
 ];
 
